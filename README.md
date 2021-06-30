@@ -40,3 +40,7 @@ Pets => 3 9
 Guns Rifle => 2 2 (Other subtab 6, 7)
 
 Sword => 2 1
+
+Capsule => 1 0
+
+> MainTab SubTab <
