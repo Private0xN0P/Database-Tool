@@ -43,4 +43,4 @@ Sword => 2 1
 
 Capsule => 1 0
 
-> MainTab SubTab <
+> MainTab SubTab 
