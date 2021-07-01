@@ -84,12 +84,12 @@ namespace Database_Tool
                         _command.Parameters.AddWithValue("@version", numericUpDown1.Value);
                         _command.Connection = con;
                         _command.ExecuteNonQuery();
-                        System.Windows.Forms.MessageBox.Show($"Sucessfully has been update shop_version", "Information: ShopItemInfos", System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Information);
+                        System.Windows.Forms.MessageBox.Show($"Sucessfully has been update shop_version", "Information: shop_version", System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Information);
                         con.Close();
                     }
                     else
                     {
-                        System.Windows.Forms.MessageBox.Show("Error", "Information: ShopItemInfos", System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Error);
+                        System.Windows.Forms.MessageBox.Show("Error", "Information: shop_version", System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Error);
                     }
                 }
             }
