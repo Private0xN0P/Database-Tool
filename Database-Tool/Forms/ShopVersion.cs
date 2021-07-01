@@ -68,7 +68,7 @@ namespace Database_Tool
             {
                 if (!File.Exists("settings.ini"))
                 {
-                    System.Windows.Forms.MessageBox.Show("The file settings.ini do not exist.", "Information: ShopItemsInfos", System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Error);
+                    System.Windows.Forms.MessageBox.Show("The file settings.ini do not exist.", "Information: shop_version", System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Error);
                 }
                 else
                 {
